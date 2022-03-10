@@ -10,13 +10,18 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "axios": "0.26.1",
+    "prop-types": "15.8.1",
     "react": "17.0.2",
     "react-native": "0.67.3",
+    "react-native-gesture-handler": "2.3.1",
+    "react-navigation": "4.4.4",
+    "reactotron-react-native": "5.0.1",
+    "styled-components": "5.3.3",
     "react-native-linear-gradient": "^2.5.6",
     "react-native-status-bar-height": "^2.6.0",
     "react-native-vector-icons": "^9.1.0",
-    "realm": "^10.13.0",
-    "styled-components": "5.3.3"
+    "realm": "^10.13.0"  
   },
   "devDependencies": {
     "@babel/core": "7.17.5",

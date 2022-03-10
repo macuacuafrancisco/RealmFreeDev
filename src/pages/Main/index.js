@@ -1,7 +1,9 @@
 import React from 'react'
 import Icon from 'react-native-vector-icons/MaterialIcons'
 
-import { Container, Title, Form, Input, Submit } from './styles'
+import Repository from '../../components/Repository'
+
+import { Container, Title, Form, Input, Submit, List } from './styles'
 
 export default function Main() {
   return (
@@ -20,6 +22,26 @@ export default function Main() {
           </Submit>
 
           </Form>
+
+
+            <List
+                keyboardShouldPersisteTaps="handled"
+                data={[
+                  {
+                      id: 1,
+                      name: "unform",
+                      description: "Este Projkect para uifpr ui ",
+                      stars: 53453,
+                      forks: 5456
+                  }
+                 ]}
+                keyExtractor={item=> String(item.id)}
+                renderItem={({item })=>(
+                    <Repository data={item} />
+                )}
+            />
+
+
     </Container>
   )
 }
