@@ -30,7 +30,7 @@ export default function Main() {
                   {
                       id: 1,
                       name: "unform",
-                      description: "Este Projkect para uifpr ui ",
+                      description: "Este Projkect para uifpr ui Este Projkect para uifpr ui Este Projkect para uifpr ui Este Projkect para uifpr ui Este Projkect para uifpr ui Este Projkect para uifpr ui Este Projkect para uifpr ui Este Projkect para uifpr ui Este Projkect para uifpr ui Este Projkect para uifpr ui Este Projkect para uifpr ui Este Projkect para uifpr ui Este Projkect para uifpr ui ",
                       stars: 53453,
                       forks: 5456
                   }

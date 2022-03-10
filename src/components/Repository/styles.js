@@ -22,22 +22,16 @@ export const Description = styled.Text.attrs({
 `;
 
 export const Stats = styled.View`
-    padding: 20px;
-    border-radius: 4px;
-    background: #FFF;
-    margin-bottom: 15px;
+    flex-direction:row;
+    margin-top: 15px;
 `;
 
-export const Stat = styled.View`
-    padding: 20px;
-    border-radius: 4px;
-    background: #FFF;
-    margin-bottom: 15px;
+export const Stat = styled.View` 
+    flex-direction: row;
+    align-items: center;
+    margin-right: 15px
 `;
 
 export const StatCount = styled.Text`
-    padding: 20px;
-    border-radius: 4px;
-    background: #FFF;
-    margin-bottom: 15px;
+    margin-left: 6px
 `;
